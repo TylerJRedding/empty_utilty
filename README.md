@@ -11,3 +11,4 @@ Create Empty(s)
 Move Empty(s)
 
   Moves selected empties to available vertices of selected mesh
+

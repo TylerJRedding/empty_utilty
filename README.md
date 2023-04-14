@@ -1,8 +1,7 @@
-# empty_utilty
-Small blender utility to generate and manipulate empties.
+# **Empty Utility**
+Small blender utility to generate and manipulate empties.<br />
 
-<br />
-## Functions
+### **Functions**
 
 Create Empty(s)
   

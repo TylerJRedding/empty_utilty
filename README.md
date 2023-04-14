@@ -5,9 +5,9 @@ Small blender utility to generate and manipulate empties.<br />
 
 Create Empty(s)
   
-  Creates empties per vertex of selected objects
+- Creates empties per vertex of selected objects
   
 Move Empty(s)
 
-  Moves selected empties to available vertices of selected mesh
+- Moves selected empties to available vertices of selected mesh
 

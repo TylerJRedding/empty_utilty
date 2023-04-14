@@ -32,6 +32,10 @@ class MoveEmpty(bpy.types.Operator):
         for mesh in selected_meshes:
             mesh_vertices = mesh.data.vertices
             for vertex in mesh_vertices:
+                if len(selected_empties) <= 0:
+                    self.report({'WARNING'}, "Too few empties in selection for vertex count.")
+                    return {'CANCELLED'} 
+                
                 empty = selected_empties.pop(0)
                 location = mesh.matrix_world @ vertex.co
                 empty.location = location
